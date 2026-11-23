@@ -22,10 +22,10 @@ MAKEFUN_ENV_URL=http://127.0.0.1:8080 python3 main.py
 
 ## The size rule
 
-- `main.py` is the whole engine: 4,051 bytes as committed. It is an
-  LZMA-compressed payload (base85) with a tiny unpacker; the payload and
-  the unpacker are both part of its 4,096 bytes. Compression is allowed
-  by the competition rules.
+- `main.py` is the whole engine: 3,299 bytes as committed. It is the
+  kit's `makefun compress` output (an LZMA stream of the readable source
+  with a small stub); the payload and the stub are both part of its
+  4,096 bytes. Compression is allowed by the competition rules.
 - The rest of the tree (this README, LICENSE, `.makefun/owner.json`) is
   at most 8,192 bytes in all, and no file is over 4,096. License: MIT.
 
