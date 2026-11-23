@@ -1,12 +1,24 @@
-# tiny-chess-01 entry — 4 KB chess engine
+# tiny-chess-01
 
-[![make.fun](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01)
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/cytoboth/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/cytoboth/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
 A chess engine in a single 4,096-byte `main.py`: negamax with alpha-beta,
 iterative deepening on a fixed 130,000-node budget, transposition table,
 killer + history move ordering, MVV-LVA captures, quiescence search and a
 material + piece-square evaluation. Written from scratch in Python 3.13
 standard library only; no model calls, no clock — fully deterministic.
+
+## Run it
+
+```sh
+MAKEFUN_ENV_URL=http://127.0.0.1:8080 python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=fd3yvszx&utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
 
 ## The size rule
 
