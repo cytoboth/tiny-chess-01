@@ -22,7 +22,7 @@ MAKEFUN_ENV_URL=http://127.0.0.1:8080 python3 main.py
 
 ## The size rule
 
-- `main.py` is the whole engine: 3,299 bytes as committed. It is the
+- `main.py` is the whole engine: 3,761 bytes as committed. It is the
   kit's `makefun compress` output (an LZMA stream of the readable source
   with a small stub); the payload and the stub are both part of its
   4,096 bytes. Compression is allowed by the competition rules.
